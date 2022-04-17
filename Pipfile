@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nltk = "*"
+ipykernel = "*"
+pyyaml = "*"
+twitterscraper = "*"
+selenium = "*"
+fake-headers = "*"
+webdriver-manager = "*"
+scweet = "==1.8"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
